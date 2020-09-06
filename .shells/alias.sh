@@ -4,7 +4,6 @@
 #-------------------------------------------------------------
 alias e='explorer'
 alias e.="explorer ."
-alias codeme='code /c:/Users/CHurst'
 alias lsql='docker container start pissoff'
 alias lpsql='docker container start some-postgres'
 alias codemeps='code /c:/Users/CHurst/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1'
