@@ -1,0 +1,8 @@
+[Buttonbar]
+Buttoncount=2
+button1=wcmicons.dll,15
+cmd1=C:\totalcmd\Configuration\ButtonBar\DEFAULT.BAR
+iconic1=0
+button2=
+iconic2=0
+menu2=dummy

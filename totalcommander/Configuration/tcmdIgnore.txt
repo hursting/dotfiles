@@ -1,0 +1,7 @@
+C:\Windows.old
+c:\Documents and Settings
+c:\ProgramData
+c:\PerfLogs
+c:\OneDriveTemp
+c:\intel
+c:\29a68a94ba76c16b044a

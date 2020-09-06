@@ -1,0 +1,19 @@
+[Buttonbar]
+Buttoncount=5
+button1=C:\totalcmd\Configuration\Icons\flat_wcmicons_v1.02\wcmicons.dll,65
+cmd1=C:\totalcmd\Configuration\ButtonBar\DEFAULT.BAR
+iconic1=0
+button2=C:\tools\cmdermini\Cmder.exe
+cmd2=em_cmder
+menu2=CmderMini
+button3=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+cmd3=em_visualStudio
+menu3=Vs2019Cmd
+button4=C:\Windows\System32\cmd.exe
+cmd4=em_ext_cmdelevated
+iconic4=0
+menu4=cmdAsAdmin
+button5=C:\Windows\System32\cmd.exe
+cmd5=em_ext_cmd
+iconic5=0
+menu5=cmd

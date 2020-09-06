@@ -1,0 +1,5 @@
+[Buttonbar]
+Buttoncount=1
+button1=wcmicons.dll,15
+cmd1=C:\totalcmd\Configuration\ButtonBar\DEFAULT.BAR
+iconic1=0

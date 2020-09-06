@@ -1,0 +1,18 @@
+[Buttonbar]
+Buttoncount=4
+button1=C:\Program Files\Docker\Docker\Docker for Windows.exe
+cmd1=C:\totalcmd\Configuration\ButtonBar\DEFAULT.BAR
+iconic1=0
+menu1=Docker
+button2=wcmicons.dll
+cmd2=em_dockerRavenDb
+iconic2=0
+menu2=Launch RavenDB
+button3=C:\Program Files\Docker\Docker\Docker for Windows.exe
+cmd3=em_dsql
+iconic3=0
+menu3=LaunchSqlContainer
+button4=C:\Program Files\Docker\Docker\Docker for Windows.exe
+cmd4=em_drabbit
+iconic4=0
+menu4=LaunchRabbitMQ
