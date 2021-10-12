@@ -4,6 +4,7 @@
 #-------------------------------------------------------------
 alias e='explorer'
 alias e.="explorer ."
+alias codeme='code /c:/Users/CHurst'
 alias lsql='docker container start pissoff'
 alias lpsql='docker container start some-postgres'
 alias codemeps='code /c:/Users/CHurst/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1'
@@ -32,6 +33,14 @@ alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 alias flow='cd /c/home/dev/repo/flow/asgflow/asg.core.web'
 alias flow2='cd /c/home/dev/repo/FlowV2/FlowV2'
+alias surf='cd /c/home/dev/repo/Surf'
+alias surfjob='cd /c/home/dev/repo/Surf/Surf.Job.Api'
+alias slsurfjob='start /c/home/dev/repo/Surf/Surf.Job.Api/src/Surf.Job.Api.sln'
+alias surfcore='cd /c/home/dev/repo/Surf/Surf.Core'
+alias slsurfcore='start /c/home/dev/repo/Surf/Surf.Core/src/Surf.Core.sln'
+alias surfaccount='cd /c/home/dev/repo/Surf/Surf.Account.Api'
+alias surfcustomer='cd /c/home/dev/repo/Surf/Surf.Customer.Api'
+alias surfui='cd /c/home/dev/repo/Surf/FlowV2.UI'
 alias tools='cd C/ProgramData/chocolatey/lib'
 alias home='cd /c/home/'
 alias scripts='cd /c/home/dev/scripts'
@@ -41,10 +50,13 @@ alias repo='cd /c/home/dev/repo/flow'
 alias tm='cd /c/home/dev/repo/ASGTicketApp'
 alias setdev='setx ASPNETCORE_ENVIRONMENT "Development"'
 
+alias npmrs='npm run start'
+
 #-------------------------------------------------------------
 # various alias
 #-------------------------------------------------------------
 alias gh='history|grep'
+alias sbe='servicebusexplorer'
 
 
 #-------------------------------------------------------------
@@ -57,7 +69,10 @@ alias dkl='docker system df'
 # stop all docker containers
 alias dkstop='docker stop $(docker ps -a -q)'
 alias dkdelstop=' docker rm $(docker ps --filter status=exited -q) '
-
+alias delk-u=' docker-compose -f /c/home/Dev/scripts/Docker/elk/docker-compose.yml up -d'
+alias delk-d=' docker-compose -f /c/home/Dev/scripts/Docker/elk/docker-compose.yml down -d'
+alias dsql-u=' docker-compose -f /c/home/Dev/scripts/Docker/mssql/docker-compose.yml up -d'
+alias dsql-d=' docker-compose -f /c/home/Dev/scripts/Docker/mssql/docker-compose.yml down -d'
 
 
 #-------------------------------------------------------------

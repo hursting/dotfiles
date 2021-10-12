@@ -19,6 +19,7 @@ alias gpom='git pull origin master'
 alias gbv='git branch -vv' 
 alias gcm='git checkout master'
 alias gcd='git checkout develop'
+alias gcob='git checkout -b'
 
 alias gh='git help '
 
@@ -93,4 +94,8 @@ function gll() {
 
 function glx() {
 	git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %Cgreen(%cd) %C(bold blue) %an [%ae]:%Creset %n %s %n %b %n" --abbrev-commit
+}
+
+function grootall(){
+	for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 }
