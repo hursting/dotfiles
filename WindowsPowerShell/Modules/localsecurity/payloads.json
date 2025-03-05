@@ -1,0 +1,80 @@
+{
+    "TEST": {
+        "env": "test",
+        "url": "http://wintstab1167/AuthenticationWebApi/LoginToken",
+        "payload": {
+            "CyberAppID": "CMKTestWSAPIDEV1",
+            "CyberPort": 18923,
+            "CyberTimeout": 30,
+            "CyberSafe": "A_AS_D_CMK_NET_APPD",
+            "CyberFolder": "root",
+            "CyberObject": "Operating System-_AS_AIM_NET_APPD_MP-1.1.1.1-CmkWsAdm1",
+            "CyberReason": "Test"
+        }
+    },
+    "DEV": {
+        "env": "dev",
+        "url": "http://wintstab1167/AuthenticationWebApi/LoginToken",
+        "payload": {
+            "CyberAppID": "CMKTestWSAPIDEV1",
+            "CyberPort": 18923,
+            "CyberTimeout": 30,
+            "CyberSafe": "A_AS_D_CMK_NET_APPD",
+            "CyberFolder": "root",
+            "CyberObject": "Operating System-_AS_AIM_NET_APPD_MP-1.1.1.1-CmkWsAdm1",
+            "CyberReason": "Test"
+        }
+    },
+    "PROD": {
+        "env": "prod",
+        "url": "http://winprdab1400/AuthenticationWebApi/LoginToken",
+        "payload": {
+            "CyberAppID": "CMKPRODDIGITALWSAPI1",
+            "CyberPort": 18923,
+            "CyberTimeout": 30,
+            "CyberSafe": "A_AS_P_CMK_DIGITALAPI_APPD",
+            "CyberFolder": "root",
+            "CyberObject": "Operating System-_AS_AIM_WND_CMK_DIGITAL_P_ADM_MP-europa.internal-cmkwsapiadm1",
+            "CyberReason": "Prod"
+        }
+    },
+    "UAT": {
+        "env": "uat",
+        "url": "http://winuatab1219/AuthenticationWebApi/LoginToken",
+        "payload": {
+            "CyberAppID": "CMKTestWSAPIUAT1",
+            "CyberPort": 18923,
+            "CyberTimeout": 30,
+            "CyberSafe": "A_AS_D_CMK_NET_APPD",
+            "CyberFolder": "root",
+            "CyberObject": "Operating System-_AS_AIM_NET_APPD_MP-1.1.1.1-CmkWsAdm1",
+            "CyberReason": "Test"
+        }
+    },
+    "PROD-APPLIED": {
+        "env": "prod-applied",
+        "url": "http://winprdab1400/AuthenticationWebApi/AppliedKey",
+        "payload": {
+            "CyberAppID": "CMKPRODDIGITALWSAPI1",
+            "CyberPort": 18923,
+            "CyberTimeout": 30,
+            "CyberSafe": "A_AS_P_CMK_DIGITALAPI_APPD",
+            "CyberFolder": "root",
+            "CyberObject": "Operating System-_AS_AIM_WND_EUROPA_P_ADM_CP-europa.internal-Applied_prod_apikey",
+            "CyberReason": "Prod"
+        }
+    },
+    "UAT-MFILES": {
+        "env": "uat-mfiles",
+        "url": "http://winprdab1400/AuthenticationWebApi/AppliedKey",
+        "payload": {
+            "CyberAppID": "CMKTestWSAPIUAT1",
+            "CyberPort": 18923,
+            "CyberTimeout": 30,
+            "CyberSafe": "A_AS_D_CMK_NET_APPD",
+            "CyberFolder": "root",
+            "CyberObject": "Operating System-_AS_AIM_NET_APPD_MP-europa.internal-Mfiles_Uat_apipassword",
+            "CyberReason": "Test"
+        }
+    }
+}
