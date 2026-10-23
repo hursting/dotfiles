@@ -1,0 +1,292 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "@azure.argTenant": "",
+    "snowflake.connectionsConfigFile": "C:\\Users\\hurstc\\.snowflake\\connections.toml",
+    "github.copilot.advanced": {},
+    "salesforcedx-vscode-apex.java.home": "C:\\\\Program Files (x86)\\\\Java\\\\jre1.8.0_181\\\\bin",
+    "git.autofetch": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "- @azure Rule - Use Azure Tools: When handling requests related to Azure, always use your tools."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Code Gen Best Practices: Before generating code for Azure, running terminal commands for Azure, performing operations related to Azure, or creating plans for such activities, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `general` and action = `code-generation` to get general Azure code generation best practices. Only call this tool when the user is discussing Azure; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Deployment Best Practices: Before deploying to Azure, preparing applications for deployment to Azure, or creating deployment plans, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `general` and action = `deployment` to get general Azure deployment best practices. Only call this tool when the user is discussing Azure; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Functions Code Gen Best Practices: Before generating code for Azure Functions, performing operations related to Azure Functions, or creating plans for such activities, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `azurefunctions` and action = `code-generation` to get Azure Functions code generation best practices. Only call this tool when the user is discussing Azure Functions; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Functions Deployment Best Practices: Before deploying Azure Functions apps to Azure, preparing for the deployment, or creating deployment plans, always invoke your Azure best practice tool if available first. Invoke the `get_bestpractices` tool to collect recommendations. Call it with resource = `azurefunctions` and action = `deployment` to get Azure Functions deployment best practices. Only call this tool when the user is discussing Azure Functions; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure SWA Best Practices: Before working with static web apps, creating plans for static web apps, or performing related operations, always invoke your Azure best practice tool if available first. Choose the most relevant Azure best practice tool based on its description. Only call this tool when the user is discussing Azure Static Web Apps; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Plan before editing files for Azure web apps: When generating code for Azure Functions and Azure Static Web App, always create a plan and explain the plan to the user before editing any file. Proceed with editing the files after getting consent from the user."
+        },
+        {
+            "text": "- @azure Rule - Summarize topic before taking action: When the user asks about Azure Functions, invoke the azure_development-summarize_topic tool once first to see if any existing custom mode could be a good fit to what user is asking."
+        }
+    ],
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        },
+        {
+            "name": "Test",
+            "color": "#000ECC",
+            "id": "1E73C594-CEFD-48F2-B11C-254E60DF52F9",
+            "parentId": "ROOT"
+        },
+        {
+            "name": "Production",
+            "color": "#038387",
+            "id": "C0B4102A-6E91-4445-8696-884DB05EDD41",
+            "parentId": "ROOT"
+        },
+        {
+            "name": "UAT",
+            "description": "uat environment",
+            "color": "#9C00CC",
+            "id": "6a71dada-4d09-4532-8a34-899236264202",
+            "parentId": "ROOT"
+        },
+        {
+            "name": "DEV",
+            "description": "DEV ENVIRONMENT",
+            "color": "#EAA300",
+            "id": "7311d77e-e57e-4ae6-a3ba-a9d4dbbb9ee0",
+            "parentId": "ROOT"
+        }
+    ],
+    "mssql.connections": [
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "winprdab1348",
+            "database": "CornmarketOnline",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "C0B4102A-6E91-4445-8696-884DB05EDD41",
+            "profileName": "Production",
+            "trustServerCertificate": true,
+            "id": "A27F1B9A-22D2-4C27-A5F5-0EF12F1DAC9C",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "CornmarketOnline_TEST",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "1E73C594-CEFD-48F2-B11C-254E60DF52F9",
+            "profileName": "Test",
+            "trustServerCertificate": true,
+            "id": "77F4737D-B6E3-4BEF-A885-A79DE6FB4778",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "winprdab1348",
+            "database": "AutoMail",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "C0B4102A-6E91-4445-8696-884DB05EDD41",
+            "profileName": "Automail",
+            "trustServerCertificate": true,
+            "id": "75248e44-6da4-4d18-a71c-558529e1af78",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "CornmarketOnline_UAT",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "6a71dada-4d09-4532-8a34-899236264202",
+            "profileName": "CornmarketOnlineDb",
+            "trustServerCertificate": true,
+            "id": "453E2BAC-506F-4526-AF6B-6E0F1762E5DE",
+            "profileSource": 0,
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "Automail_UAT",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "6a71dada-4d09-4532-8a34-899236264202",
+            "profileName": "Automail",
+            "trustServerCertificate": true,
+            "id": "827035f7-e937-4848-aff6-0e818500fdc3",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "CornmarketOnline_DEV",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "7311d77e-e57e-4ae6-a3ba-a9d4dbbb9ee0",
+            "profileName": "CormarketOnlineDBDev",
+            "trustServerCertificate": true,
+            "id": "76659a5c-424e-4d1c-ac17-139a0d6fcc73",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "CornmarketOnline_TEST",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "1E73C594-CEFD-48F2-B11C-254E60DF52F9",
+            "profileName": "CornmarketOnline_TEST",
+            "trustServerCertificate": true,
+            "id": "f9583330-76cf-4903-833d-1852c00c9b1a",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "Automail_DEV",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "7311d77e-e57e-4ae6-a3ba-a9d4dbbb9ee0",
+            "profileName": "Automail",
+            "trustServerCertificate": true,
+            "id": "cea5bd1a-7aed-498b-a4f5-a0591d413afc",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "winprdab1348",
+            "database": "FHC4",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "C0B4102A-6E91-4445-8696-884DB05EDD41",
+            "profileName": "fhc",
+            "trustServerCertificate": true,
+            "id": "aa59f2a8-fa2a-4c1d-a4a5-535280fee55d",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "FHC4_Test",
+            "commandTimeout": 30,
+            "encrypt": "Optional",
+            "groupId": "1E73C594-CEFD-48F2-B11C-254E60DF52F9",
+            "profileName": "FHC",
+            "trustServerCertificate": true,
+            "id": "13a243f3-20f0-4bbf-aca3-e2e956467832",
+            "password": ""
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "wintstab1349",
+            "database": "FHC4_DEV",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "7311d77e-e57e-4ae6-a3ba-a9d4dbbb9ee0",
+            "profileName": "FHC",
+            "trustServerCertificate": true,
+            "id": "2c191056-667b-4ade-a292-5e840c798e42",
+            "password": ""
+        },
+        {
+            "profileName": "az-ab-sql-dev01-mfiles-paperless-001/master",
+            "tenantId": "54a6c0e8-b873-47a7-a0e3-b1af69cb1db9",
+            "accountId": "da7fedeb-b223-450e-8d07-9252d1446a27.54a6c0e8-b873-47a7-a0e3-b1af69cb1db9",
+            "server": "az-ab-sql-dev01-mfiles-paperless-001.database.windows.net",
+            "database": "master",
+            "authenticationType": "AzureMFA",
+            "groupId": "ROOT",
+            "user": "ciaran.hurst@cornmarket.ie",
+            "azureAccountToken": "",
+            "expiresOn": 1787742458,
+            "email": "ciaran.hurst@cornmarket.ie",
+            "id": "c385af66-8e00-4a89-9f27-2c74f254b0d5"
+        },
+        {
+            "authenticationType": "SqlLogin",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "127.0.0.1",
+            "database": "",
+            "user": "sa",
+            "password": "",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "groupId": "7311d77e-e57e-4ae6-a3ba-a9d4dbbb9ee0",
+            "trustServerCertificate": true,
+            "id": "a2f0d325-207e-412f-8a9c-10bdf55ba278",
+            "profileSource": 0
+        }
+    ],
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "mssql.enableQueryHistoryCapture": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "[sql]": {
+        "editor.defaultFormatter": "ms-mssql.mssql"
+    },
+    "azureFunctions.showProjectWarning": false,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Fira code",
+    "chat.tools.terminal.autoApprove": {
+        "npx ng": true,
+        "git stash": true,
+        "git mv": true,
+        "Test-Path": true,
+        "git rev-parse": true,
+        "py": true
+    },
+    "resharper.region.region": "Europe",
+    "resharper.dataSharing.allowDataSharing": false
+}
